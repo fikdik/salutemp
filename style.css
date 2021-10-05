@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c21c20;
+  min-height: 100vh;
+  height: 100%;
+}
+
+body > div {
+  margin: 0 auto;
+
+  width: 500px;
+  max-width: 90%;
+  height: 100%;
+
+  padding: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+body > div,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 20px;
+}
